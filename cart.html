@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logoweb.png" alt="ther is a image"></a>
+
+        <div>
+            <ul id="navbar">
+                <!-- class="active" isse hi word  and page highlight hota hain navbar main -->
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a   href="blog.html">Blog</a></li>
+                <li><a   href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li id="lg-bag" class="active"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>  <!-- lg-bag id is used in the media query  for removing the shopping cart logo whne the width is less tahn 799px or when it is in the mobile view-->
+                <a href="#" id="close"><i class="fa-solid fa-square-xmark"></i></a>
+                <img src="moon.png" alt="" id="darkicon">
+            </ul>
+        </div>
+        <div id="mobile">  <!--this div with mobile class is added for resposiveness and for the navbar in mobile view-->
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>  
+                 <i id="bar"  class="fa-solid fa-outdent"></i>
+        </div>
+    </section> <!--this section is for navabr-->
+
+    <section id="page-header" class="about-header">
+         <!-- this section is for page header -->
+           <h2>#Let's_talk</h2>
+           
+           <p>Leave a message.We love to learn from you</p>
+
+
+           
+    </section>
+   
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                 <tr class="item">
+                    <td><a href="#" class="btnrem"><i class="fa-solid fa-trash"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td >$<span class="eacht"> 118.19</span></td>
+                    <td ><input type="number" class="qty" value="1" min="1"></td>
+                    <!-- value=1 is  the default value that we want in our website  and min=1 set as no negative value-->
+                     <td  > $<span class="tt">118.19 </span></td>
+                 </tr>
+
+                 <tr class="item">
+                    <td><a href="#" class="btnrem"><i class="fa-solid fa-trash"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$<span class="eacht"> 100.19</span></td>
+                    <td ><input type="number" class="qty" value="1" min="1"></td>
+                    <!-- value=1 is  the default value that we want in our website -->
+                    <td  > $<span class="tt">100.19 </span></td>
+                 </tr>
+
+                 <tr class="item" >
+                    <td><a href="#" class="btnrem"><i class="fa-solid fa-trash"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$<span class="eacht"> 88</span></td>
+                    <td ><input type="number"  class="qty" value="1"  min="1"></td>
+                    <!-- value=1 is  the default value that we want in our website -->
+                    <td >$<span class="tt">  88 </span></td>
+                 </tr>
+
+            </tbody>
+        </table>
+    </section>
+    
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <input type="text" placeholder="Enter your Coupon Code">
+            <button class="normal">Apply</button>
+        </div>
+
+        <div id="subtotal" class="">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                   <td> Cart Subtotals </td>
+                   <td>$ <span id="cart-gt">0</span> </td>
+                </tr>
+                <tr>
+                    <td> Shipping </td>
+                    <td>Free</td>
+                 </tr>
+                 <tr>
+                    <td> <strong>Total</strong> </td>
+                    <td>$ 335</td>
+                 </tr>
+            </table>
+
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <!-- FOOTER CLASS IS IMP PLEASE SEE IT  -->
+     <footer class="section-p1" id="">
+        <div class="col">
+            <img class="logo" src="img/logoweb.png" alt="">
+            <h4><strong>Contact</strong> </h4>
+            <p> <strong>Address:</strong> 30/50 Chhipitola,Agra  or MNNIT,PRAYAGRAJ</p>
+            <p> <strong>Phone:</strong>+01 222 365 / 9870726696 </p>
+            <p> <strong>Hours:</strong> 10:00-18:00 , Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">  <!--class icon is crewated for icon and their links -->
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-skype"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4><strong>About </strong></h4>
+            <a href="#">About Us</a>
+            <a href="#"> Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+            
+    </div>
+
+        <div class="col">
+                <h4><strong>My Account </strong></h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+        </div>
+
+         <div class="col install">
+            <h4>Install Apps</h4>
+            <p>From App store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            
+            </div>
+             <p>Secured Payment Gateways </p>
+             <img src="img/pay/pay.png" alt="">
+         </div>
+
+        <div class="copyright">
+           <p> © 2024,Akshatjain - HTML CSS Ecommerce All Rights Reserved </p>
+        </div>
+     </footer>
+    <script src="https://kit.fontawesome.com/8d682b4a9e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

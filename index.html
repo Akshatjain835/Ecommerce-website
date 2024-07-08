@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logoweb.png" alt="ther is a image"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag" ><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>  <!-- lg-bag id is used in the media query  for removing the shopping cart logo whne the width is less tahn 799px or when it is in the mobile view-->
+                <a href="#" id="close"><i class="fa-solid fa-square-xmark"></i></a>
+                <img src="moon.png" alt="" id="darkicon">
+            </ul>
+        </div>
+        <div id="mobile">  <!--this div with mobile class is added for resposiveness and for the navbar in mobile view-->
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>  
+                 <i id="bar"  class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+           <h4>Trade-in-offer</h4>
+           <h2>Super value deals</h2>
+           <h1>On all products</h1>
+           <p>Save more with coupons and up to 70% off!</p>
+           <button>Shop now</button>
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+           <img src="img/features/f1.png" alt="there is image" >
+           <h6>Free shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="there is image" >
+            <h6>Online Order</h6>
+         </div>
+         <div class="fe-box">
+            <img src="img/features/f3.png" alt="there is image" >
+            <h6>Save Money</h6>
+         </div>
+         <div class="fe-box">
+            <img src="img/features/f4.png" alt="there is image" >
+            <h6>Promotions</h6>
+         </div>
+         <div class="fe-box">
+            <img src="img/features/f5.png" alt="there is image" >
+            <h6>Happy Sell</h6>
+         </div>
+         <div class="fe-box">
+            <img src="img/features/f6.png" alt="there is image" >
+            <h6>24/7 Support</h6>
+         </div>
+    </section>
+    
+    <!-- section-p1 class is used to give padding to the whole product that we have defined in the css earlier  -->
+    <section id="product1" class="section-p1">  
+        <!-- product1 is the main container which contins all images card ,text,etc and pro-container is the container that contains 
+         the cards consisting pof rpoducts  and class pro rrpresents the individual card and their stylingv  and class desc contains 
+         the description that is written on the card -->
+        <h2>Featured Product</h2>
+        <p>Summer collection New Modern Design</p>
+
+        <div class="pro-container">
+
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$78</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f2.jpg" alt="">
+                <div class="des">
+                    <span> Reebock</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Flower T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$83</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f3.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$79</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f4.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Design Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$88</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$78</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f6.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$100</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$85</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$83</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services </h4>
+        <h2>Up to <span>70% Off</span>- All t-shirts & Accessories</h2>
+        <button class="normal">Explore More</button>
+    </section>
+
+   <!-- we have copiede the featured product section and have only changed the name and  image and rest  container name are same as well as tags are same so that we can get the saqme css and styling and all are same  -->
+    <section id="product1" class="section-p1">  
+        <!-- product1 is the main container which contins all images card ,text,etc and pro-container is the container that contains 
+         the cards consisting pof rpoducts  and class pro rrpresents the individual card and their stylingv  and class desc contains 
+         the description that is written on the card -->
+        <h2>New Arrivals</h2>
+        <p>Summer collection New Modern Design</p>
+
+        <div class="pro-container">
+
+            <div class="pro">
+                <img src="img/products/n1.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$88</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$87</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$59</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$93</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n5.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$85</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f5.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$70</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$101</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span> Adidas</span> <!-- span tag is used to write text in line and is used to write in st. line and is used to write in cards-->
+                    <h5>Cartoon Astronaut T-Shirt</h5>
+                    <div class="star">
+                       
+
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                       
+                    </div><!--this class star is used to contain the start for review and rating -->
+                    <h4>$78</h4>
+
+                </div>
+                <a href="#" class="cart" ><i  class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy deals</h4>
+            <h2>buy 1 get 1 freee</h2>
+            <span>The best classic and branded dress is sale at pari</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>spring/summer</h4>
+            <h2>upcoming season</h2>
+            <span>The best classic and branded dress is sale at pari</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+    
+     
+    <section id="banner3">
+        <div class="banner-box  ">
+          
+            <h2>Seasonal Sale</h2>
+            <h3>Winter Collection-50% OFF</h3>
+        </div>
+        <div class="banner-box  banner-box2">
+          
+            <h2>NEW FOOTWEAR COLLECTION </h2>
+            <h3>Spring / Summer 2022</h3>
+        </div>
+        <div class="banner-box  banner-box3 ">
+          
+            <h2>T-Shirts</h2>
+            <h3>New Trendy Prints</h3>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <!-- here two class are created for newstext that is the the tesxt in newsletter id and one class is for the signup box -->
+             <div class="newstext">
+                <h4>Sign Up For Newsletter</h4> 
+                <p>Get E-mail Update about our latest shop and <span>Special offers</span></p>
+            </div>
+                <!-- span tag is generally used when we have to particularly only style the  some part of text  in paragraph   -->
+                 <div class="form">
+                    <input type="text" placeholder="Enter your e-mail address" >
+                    <button class="normal">Sign Up</button>
+                 </div>
+            
+    </section>
+
+
+    <!-- FOOTER CLASS IS IMP PLEASE SEE IT  -->
+     <footer class="section-p1" id="">
+        <div class="col">
+            <img class="logo" src="img/logoweb.png" alt="">
+            <h4><strong>Contact</strong> </h4>
+            <p> <strong>Address:</strong> 30/50 Chhipitola,Agra  or MNNIT,PRAYAGRAJ</p>
+            <p> <strong>Phone:</strong>+01 222 365 / 9870726696 </p>
+            <p> <strong>Hours:</strong> 10:00-18:00 , Mon - Sat</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">  <!--class icon is crewated for icon and their links -->
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-skype"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4><strong>About </strong></h4>
+            <a href="#">About Us</a>
+            <a href="#"> Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+            
+    </div>
+
+        <div class="col">
+                <h4><strong>My Account </strong></h4>
+                <a href="#">Sign In</a>
+                <a href="#">View Cart</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+        </div>
+
+         <div class="col install">
+            <h4>Install Apps</h4>
+            <p>From App store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            
+            </div>
+             <p>Secured Payment Gateways </p>
+             <img src="img/pay/pay.png" alt="">
+         </div>
+
+        <div class="copyright">
+           <p> © 2024,Akshatjain - HTML CSS Ecommerce All Rights Reserved </p>
+        </div>
+     </footer>
+    <script src="https://kit.fontawesome.com/8d682b4a9e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
